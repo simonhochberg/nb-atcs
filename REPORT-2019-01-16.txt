@@ -1,0 +1,61 @@
+NextBus/ATCS Matching Rerport for 2019-01-16
+For support, contact Transit Technology Group
+
+** Daily Overview for 2019-01-16 **
+
+
+MATCHED ON VEHICLE ID ------------------------------------------------------------ 350 of 373 arrivals (93.8%)
+ONE REMAINING MATCH; DIFFERENT LINES ----------------------------------------------- 10 of 373 arrivals (2.7%)
+GHOST TRAIN; NO UN-MATCHED ARRIVALS ------------------------------------------------- 5 of 373 arrivals (1.3%)
+UNMATCHED-UNKNOWN; MULTIPLE RECORDS OF OTHER LINES ---------------------------------- 3 of 373 arrivals (0.8%)
+ONE REMAINING MATCH; SAME LINE ------------------------------------------------------ 2 of 373 arrivals (0.5%)
+MATCHED TO OUT-OF-SERVICE TRAIN ----------------------------------------------------- 1 of 373 arrivals (0.3%)
+UNMATCHED-UNKNOWN; MORE THAN 1 UNMATCHED ARRIVAL OF THAT LINE IN TIME-WINDOW -------- 1 of 373 arrivals (0.3%)
+GHOST TRAIN; NO ATCS RECORDS IN TIME-WINDOW ----------------------------------------- 1 of 373 arrivals (0.3%)
+
+
+Vehicle IDs listed below are considered to be un-matched. They are sorted by matching failure.
+
+Arrivals are shown in the following format:
+<VEHICLE ID> -- <NEXTBUS ARRIVAL PREDICTION>
+
+* ONE REMAINING MATCH; DIFFERENT LINES * 
+There is one remaining un-matched arrival in the ATCS dataset within the given time window, and it is a different line than the NextBus arrival.
+
+1438 -- 05:44:03
+1532 -- 09:15:24
+1507 -- 09:44:51
+1469 -- 09:57:44
+1487 -- 10:10:12
+1411 -- 10:11:59
+2030 -- 10:45:20
+2013 -- 12:31:52
+1403 -- 12:48:44
+2046 -- 15:33:11
+
+* GHOST TRAIN; NO UN-MATCHED ARRIVALS * 
+There are no un-matched arrivals in the ATCS dataset within the given time window
+
+1428 -- 06:35:26
+1532 -- 07:30:51
+1410 -- 07:33:38
+1428 -- 12:29:04
+1428 -- 15:51:34
+
+* UNMATCHED-UNKNOWN; MULTIPLE RECORDS OF OTHER LINES * 
+There are multiple remaining un-matched arrivals in the ATCS dataset within the given time window, and they are different lines than the NextBus arrival.
+
+1529 -- 09:48:55
+2026 -- 09:55:11
+2041 -- 13:28:17
+
+* UNMATCHED-UNKNOWN; MORE THAN 1 UNMATCHED ARRIVAL OF THAT LINE IN TIME-WINDOW * 
+There are multiple remaining un-matched arrivals in the ATCS dataset within the given time window, and more than one is the same line as the NextBus arrival
+
+1488 -- 09:06:47
+
+* GHOST TRAIN; NO ATCS RECORDS IN TIME-WINDOW * 
+There are no ATCS arrivals within the given time window.
+
+2011 -- 13:10:31
+
